@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "always-server-listings",
+  "version": "${version}",
+  "name": "always-server-listings",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/mdashlw/always-server-listings"
+  },
+  "license": "MIT",
+  "icon": "assets/always-server-listings/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "ru.mdashlw.fabric.alwaysserverlistings.AlwaysServerListings"
+    ]
+  },
+  "mixins": [
+    "always-server-listings.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
